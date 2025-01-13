@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -83,14 +84,16 @@ public class MyTestCases extends parameters {
 			String ActualLanguage = driver.findElement(By.tagName("html")).getDomAttribute("lang");
 			Assert.assertEquals(ActualLanguage, ExpectedEnglishLanguage);
 			InputCitiyField.sendKeys(EnglishCitites[randomEnglishCitites]);
-			WebElement ListofCitites = driver.findElement(By.cssSelector(".sc-phbroq-4.gGwzVo.AutoComplete__List"));
-			ListofCitites.findElements(By.tagName("li")).get(1).click();
+//			WebElement ListofCitites = driver.findElement(By.cssSelector(".sc-phbroq-4.gGwzVo.AutoComplete__List"));
+//			ListofCitites.findElements(By.tagName("li")).get(1).click();
+			InputCitiyField.sendKeys(Keys.chord(Keys.ENTER));
 		} else {
 			String ActualLanguage = driver.findElement(By.tagName("html")).getDomAttribute("lang");
 			Assert.assertEquals(ActualLanguage, ExpectedArabicLanguage);
 			InputCitiyField.sendKeys(ArabicCitites[randomArabicCitites]);
-			WebElement ListOfCitites = driver.findElement(By.cssSelector(".sc-phbroq-4.gGwzVo.AutoComplete__List"));
-			ListOfCitites.findElements(By.tagName("li")).get(1).click();
+//			WebElement ListOfCitites = driver.findElement(By.cssSelector(".sc-phbroq-4.gGwzVo.AutoComplete__List"));
+//			ListOfCitites.findElements(By.tagName("li")).get(1).click();
+			InputCitiyField.sendKeys(Keys.chord(Keys.ENTER));
 		}
 
 		WebElement NumberOfVisitors = driver.findElement(By.cssSelector(".sc-tln3e3-1.gvrkTi"));

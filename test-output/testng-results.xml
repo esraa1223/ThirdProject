@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T15:57:19 EET" name="Default suite" finished-at="2025-01-13T15:57:45 EET" duration-ms="25765">
+  <suite started-at="2025-01-13T21:37:52 EET" name="Default suite" finished-at="2025-01-13T21:38:15 EET" duration-ms="23025">
     <groups>
     </groups>
-    <test started-at="2025-01-13T15:57:19 EET" name="Default test" finished-at="2025-01-13T15:57:45 EET" duration-ms="25765">
+    <test started-at="2025-01-13T21:37:52 EET" name="Default test" finished-at="2025-01-13T21:38:15 EET" duration-ms="23025">
       <class name="packageone.MyTestCases">
-        <test-method is-config="true" signature="MySetup()[pri:0, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:19 EET" name="MySetup" finished-at="2025-01-13T15:57:24 EET" duration-ms="4170" status="PASS">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:52 EET" name="MySetup" finished-at="2025-01-13T21:37:55 EET" duration-ms="3062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetup -->
-        <test-method signature="CheckTheDefultLanguageIsEnglish()[pri:1, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:24 EET" name="CheckTheDefultLanguageIsEnglish" description="Test the defult language is English" finished-at="2025-01-13T15:57:24 EET" duration-ms="124" status="PASS">
+        <test-method signature="CheckTheDefultLanguageIsEnglish()[pri:1, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="CheckTheDefultLanguageIsEnglish" description="Test the defult language is English" finished-at="2025-01-13T21:37:55 EET" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheDefultLanguageIsEnglish -->
-        <test-method signature="CheckTheDefultCurrency()[pri:2, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:24 EET" name="CheckTheDefultCurrency" description="Check THe currency Is SAR " finished-at="2025-01-13T15:57:24 EET" duration-ms="126" status="PASS">
+        <test-method signature="CheckTheDefultCurrency()[pri:2, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="CheckTheDefultCurrency" description="Check THe currency Is SAR " finished-at="2025-01-13T21:37:55 EET" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheDefultCurrency -->
-        <test-method signature="Check_The_Mobile_Number()[pri:3, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:24 EET" name="Check_The_Mobile_Number" description="Check the Mobile number" finished-at="2025-01-13T15:57:25 EET" duration-ms="1235" status="PASS">
+        <test-method signature="Check_The_Mobile_Number()[pri:3, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Check_The_Mobile_Number" description="Check the Mobile number" finished-at="2025-01-13T21:37:55 EET" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_The_Mobile_Number -->
-        <test-method signature="Check_If_Qitaf_Logo_is_Displaed()[pri:4, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:25 EET" name="Check_If_Qitaf_Logo_is_Displaed" description="Check If Qitaf Logo is Displaed" finished-at="2025-01-13T15:57:26 EET" duration-ms="556" status="PASS">
+        <test-method signature="Check_If_Qitaf_Logo_is_Displaed()[pri:4, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Check_If_Qitaf_Logo_is_Displaed" description="Check If Qitaf Logo is Displaed" finished-at="2025-01-13T21:37:55 EET" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_If_Qitaf_Logo_is_Displaed -->
-        <test-method signature="Check_Hotel_Tap_Is_Not_Selected()[pri:5, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:26 EET" name="Check_Hotel_Tap_Is_Not_Selected" description="Check The Hotel Tap Is Not Selected" finished-at="2025-01-13T15:57:26 EET" duration-ms="126" status="PASS">
+        <test-method signature="Check_Hotel_Tap_Is_Not_Selected()[pri:5, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Check_Hotel_Tap_Is_Not_Selected" description="Check The Hotel Tap Is Not Selected" finished-at="2025-01-13T21:37:55 EET" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Hotel_Tap_Is_Not_Selected -->
-        <test-method signature="Check_The_Departure_Date()[pri:6, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:26 EET" name="Check_The_Departure_Date" description="Check The Departure Date" finished-at="2025-01-13T15:57:26 EET" duration-ms="37" status="PASS">
+        <test-method signature="Check_The_Departure_Date()[pri:6, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Check_The_Departure_Date" description="Check The Departure Date" finished-at="2025-01-13T21:37:55 EET" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_The_Departure_Date -->
-        <test-method signature="Check_The_Return_Date()[pri:7, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:26 EET" name="Check_The_Return_Date" description="Check The Return Date" finished-at="2025-01-13T15:57:26 EET" duration-ms="28" status="PASS">
+        <test-method signature="Check_The_Return_Date()[pri:7, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Check_The_Return_Date" description="Check The Return Date" finished-at="2025-01-13T21:37:55 EET" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_The_Return_Date -->
-        <test-method signature="Randomly_Change_The_Languages()[pri:8, instance:packageone.MyTestCases@5d9b7a8a]" started-at="2025-01-13T15:57:26 EET" name="Randomly_Change_The_Languages" description="Change The WebSite Language Randomly" finished-at="2025-01-13T15:57:45 EET" duration-ms="19259" status="PASS">
+        <test-method signature="Randomly_Change_The_Languages()[pri:8, instance:packageone.MyTestCases@1e8ce150]" started-at="2025-01-13T21:37:55 EET" name="Randomly_Change_The_Languages" description="Change The WebSite Language Randomly" finished-at="2025-01-13T21:38:15 EET" duration-ms="19648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Randomly_Change_The_Languages -->
