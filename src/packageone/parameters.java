@@ -2,6 +2,7 @@ package packageone;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +11,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class parameters {
 	WebDriver driver=new ChromeDriver();
+	Random rand=new Random();
 	String DefaultURL="https://www.almosafer.com/en";
-	String ExpectedLanguage="en";
+	String ExpectedEnglishLanguage="en";
+	String ExpectedArabicLanguage="ar";
 	String ExpectedCurrency="SAR";
 	String ExpectedMobileNumber="+966554400000";
 	boolean expectedQitafLogoDisplyed=true;
@@ -20,6 +23,14 @@ public class parameters {
 	int Today=date.getDayOfMonth();
 	String Tommorw=Integer.toString(date.plusDays(1).getDayOfMonth());
 	String AfterTommorow=Integer.toString(date.plusDays(2).getDayOfMonth());
+	String[] Websites= {"https://www.almosafer.com/en" ,"https://www.almosafer.com/ar"};
+	int randomIndexForTheWebsites=rand.nextInt(Websites.length);
+	String[] EnglishCitites= {"Dubi","Jeddah","Riyadh"};
+	int randomEnglishCitites=rand.nextInt(EnglishCitites.length);
+	String[] ArabicCitites= {"جدة" ,"دبي"};
+	int randomArabicCitites= rand.nextInt(ArabicCitites.length);
+	boolean ExpectedResult=true;
+	
 	
 	public void ConfigrationToAccess() {
 		driver.get(DefaultURL);

@@ -6,7 +6,7 @@
       <class name="packageone.MyTestCases">
         <methods>
           <include name="MySetup"/>
-          <include name="Check_If_Qitaf_Logo_is_Displaed"/>
+          <include name="Randomly_Change_The_Languages"/>
         </methods>
       </class> <!-- packageone.MyTestCases -->
     </classes>

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--1011864571\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-391863720\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -135,6 +135,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="packageone.MyTestCases" class="method navigator-link" hash-for-method="Check_The_Return_Date">Check_The_Return_Date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="packageone.MyTestCases" class="method navigator-link" hash-for-method="Randomly_Change_The_Languages">Randomly_Change_The_Languages</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -218,12 +223,21 @@
 (Check The Return Date)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Randomly_Change_The_Languages">
+                  </a> <!-- Randomly_Change_The_Languages -->
+                  <span class="method-name">Randomly_Change_The_Languages</span>
+                  <em>
+(Change The WebSite Language Randomly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--1011864571\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-391863720\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -272,40 +286,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Check_If_Qitaf_Logo_is_Displaed')
+data.setCell(0, 1, 'Randomly_Change_The_Languages')
 data.setCell(0, 2, 'packageone.MyTestCases')
-data.setCell(0, 3, 87);
+data.setCell(0, 3, 19259);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CheckTheDefultLanguageIsEnglish')
+data.setCell(1, 1, 'Check_The_Mobile_Number')
 data.setCell(1, 2, 'packageone.MyTestCases')
-data.setCell(1, 3, 63);
+data.setCell(1, 3, 1235);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CheckTheDefultCurrency')
+data.setCell(2, 1, 'Check_If_Qitaf_Logo_is_Displaed')
 data.setCell(2, 2, 'packageone.MyTestCases')
-data.setCell(2, 3, 48);
+data.setCell(2, 3, 556);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Check_The_Mobile_Number')
+data.setCell(3, 1, 'CheckTheDefultCurrency')
 data.setCell(3, 2, 'packageone.MyTestCases')
-data.setCell(3, 3, 40);
+data.setCell(3, 3, 126);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Check_The_Departure_Date')
+data.setCell(4, 1, 'Check_Hotel_Tap_Is_Not_Selected')
 data.setCell(4, 2, 'packageone.MyTestCases')
-data.setCell(4, 3, 32);
+data.setCell(4, 3, 126);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Check_Hotel_Tap_Is_Not_Selected')
+data.setCell(5, 1, 'CheckTheDefultLanguageIsEnglish')
 data.setCell(5, 2, 'packageone.MyTestCases')
-data.setCell(5, 3, 28);
+data.setCell(5, 3, 124);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Check_The_Return_Date')
+data.setCell(6, 1, 'Check_The_Departure_Date')
 data.setCell(6, 2, 'packageone.MyTestCases')
-data.setCell(6, 3, 27);
+data.setCell(6, 3, 37);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Check_The_Return_Date')
+data.setCell(7, 2, 'packageone.MyTestCases')
+data.setCell(7, 3, 28);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 325 ms</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -338,31 +356,35 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckTheDefultLanguageIsEnglish</span>
-                <span class="method-start">3802 ms</span>
+                <span class="method-start">4233 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CheckTheDefultCurrency</span>
-                <span class="method-start">3870 ms</span>
+                <span class="method-start">4368 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Check_The_Mobile_Number</span>
-                <span class="method-start">3920 ms</span>
+                <span class="method-start">4498 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Check_If_Qitaf_Logo_is_Displaed</span>
-                <span class="method-start">3963 ms</span>
+                <span class="method-start">5738 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Check_Hotel_Tap_Is_Not_Selected</span>
-                <span class="method-start">4053 ms</span>
+                <span class="method-start">6296 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Check_The_Departure_Date</span>
-                <span class="method-start">4083 ms</span>
+                <span class="method-start">6423 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Check_The_Return_Date</span>
-                <span class="method-start">4118 ms</span>
+                <span class="method-start">6462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Randomly_Change_The_Languages</span>
+                <span class="method-start">6492 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
